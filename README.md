@@ -2,6 +2,11 @@
 Simple script based Docker-Compose usage of kylemanna/openvpn Docker image.
 Up and running in less than two minutes!
 
+## Why this fork
+
+I'm paranoid. I don't like to use a binary image i found on the web. 
+I want to be sure its build from a known Dockerfile and context and can be easily reviwed if needed. 
+
 ## Get Started!
 
 Prerequisites: [Install Docker](https://docs.docker.com/engine/installation/) and [Docker-Compose](https://docs.docker.com/compose/install/)
