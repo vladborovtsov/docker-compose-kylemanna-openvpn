@@ -13,7 +13,4 @@ services:
     ports:
       - "$PUBLIC_PORT:1194/$PROTO"
     volumes:
-      - ovpn-data:/etc/openvpn
-
-volumes:
-  ovpn-data:
+      - ./ovpn-data:/etc/openvpn
